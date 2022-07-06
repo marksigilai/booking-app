@@ -1,0 +1,114 @@
+.booking{
+    padding: 3rem;
+    max-width: 60vw;
+    min-width: 250px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 4px 28px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.booking h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: rgb(29, 29, 29);
+    border-bottom: 4px solid darkcyan;
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+
+    padding-bottom: 10px;
+    align-items: center;
+    margin: 20px 10px;
+
+}
+
+
+.booking .date_container, .booking .hours_container{
+    margin: 25px;
+}
+
+.booking .react-datepicker-wrapper .react-datepicker__input-container input{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    max-width: 300px;
+    text-align: center;
+    margin: 5px;
+    border: 2px solid black;
+    font-size: 16px;
+}
+.booking .react-datepicker-wrapper .react-datepicker__input-container input:focus{
+    outline: none;
+    border: 2px solid black;
+
+}
+
+.booking .hours_container #hours{
+
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+    border: 2px solid black;
+
+}
+.booking .hours_container #hours:focus{
+    outline: none;
+    border: 2px solid black;    
+}
+.booking label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 5px;
+    display: block;
+    color: rgb(2, 2, 2);
+    margin-top: 15px;
+}
+.booking form .submit{
+    background-color: darkcyan;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: right;
+    transition: box-shadow 0.1s ease-in-out;
+}
+.booking form .submit:focus{
+    outline: none;  
+}
+.booking form .submit:hover{
+    box-shadow: 0 0px 11px 0 rgba(0, 0, 0, 0.5);
+}
+
+.booking form .submit p{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-right: 35px;
+    font-weight: 500;
+    display: inline;
+    vertical-align: middle;
+}
+.booking form .submit i{
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+}
+
+.booking #msg{
+    margin: 15px;
+    color: rgb(71, 71, 71);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+}
+.booking span{
+    color: darkcyan;
+}

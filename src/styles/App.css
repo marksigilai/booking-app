@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background: rgb(248, 248, 248);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

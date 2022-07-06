@@ -1,0 +1,46 @@
+.price{
+    padding: 15px;
+    margin-top: 10px;
+
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
+    display: inline-block;
+
+    display: block;
+}
+
+.price button{
+    font-size: 17px;
+    background-color: transparent;
+    padding: 7px;
+    color: rgb(0, 90, 90);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    display: block;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 15px;
+    border: none;
+  
+
+}
+.price button:hover{
+    text-decoration: underline;    
+}
+
+.price p{
+    color: rgb(58, 58, 58);
+    margin: 5px;
+    font-size: 17px;
+    padding: 0px 30px;
+}
+.price h3{
+    color: black;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 800;
+
+}
