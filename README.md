@@ -1,4 +1,4 @@
-This project was a simple booking app webpage created using React. It was done over a brief period of for a company's interview process.
+This project was a simple booking app webpage created using React. It was done over a brief period of time for a company's interview process.
 
 ## Available Scripts
 
